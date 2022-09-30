@@ -1,0 +1,16 @@
+
+<div>
+    
+<div  *ngFor="let estudiante of LISTAESTUDIANTES">
+    <div [ngClass]="estudiante.areaCursos === 'Programacion' ? 'area-programacion' : estudiante.areaCursos === 'Marketing' ? 'area-marketing' : 'area-diseño'">
+        <h5>{{estudiante.nombre | titlecase}} {{estudiante.apellido | uppercase}} </h5>
+        <h6>Cursos</h6>
+        <ul>
+            <li *ngFor="let curso of estudiante.cursos">{{curso}}</li>
+
+        </ul>
+    </div>
+</div>
+
+
+</div>
