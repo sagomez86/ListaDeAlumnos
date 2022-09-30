@@ -4,5 +4,4 @@ export interface Estudiante{
     id_estudiante: number;
     areaCursos: string;
     cursos: Array<string>;
-    ultimoIngreso: Date;
 }

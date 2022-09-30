@@ -16,7 +16,6 @@ export class ContentComponent implements OnInit {
       id_estudiante : 1,
       areaCursos: 'Programacion',
       cursos : ['Angular', 'React', 'SQL'],
-      ultimoIngreso : new Date(),
     },
     {
       nombre :'Julia',
@@ -24,7 +23,6 @@ export class ContentComponent implements OnInit {
       id_estudiante : 2,
       areaCursos: 'Marketing',
       cursos : ['Growth Marketing', 'Inbound Marketing'],
-      ultimoIngreso : new Date(),
     },
     {
       nombre :'Maria',
@@ -32,7 +30,6 @@ export class ContentComponent implements OnInit {
       id_estudiante : 3,
       areaCursos: 'Programacion',
       cursos : ['Angular', 'HTML'],
-      ultimoIngreso : new Date(),
     },
     {
       nombre :'Diego',
@@ -40,7 +37,6 @@ export class ContentComponent implements OnInit {
       id_estudiante : 4,
       areaCursos: 'Diseño',
       cursos : ['UX Writing', 'Diseño UX/UI'],
-      ultimoIngreso : new Date(),
     },
     {
       nombre :'jorge',
@@ -48,7 +44,6 @@ export class ContentComponent implements OnInit {
       id_estudiante : 5,
       areaCursos: 'Marketing',
       cursos : ['Copywriting', 'Branding'],
-      ultimoIngreso : new Date(),
     },
     {
       nombre :'Lucia',
@@ -56,7 +51,6 @@ export class ContentComponent implements OnInit {
       id_estudiante : 6,
       areaCursos: 'Programacion',
       cursos : ['C#', 'SQL', 'Vue Js'],
-      ultimoIngreso : new Date(),
     }
     
 ];
